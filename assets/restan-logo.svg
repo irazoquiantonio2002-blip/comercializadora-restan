@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Comercializadora Restan</title>
+  <desc id="desc">Logotipo circular de Comercializadora Restan con cuatro puntos amarillos.</desc>
+  <defs>
+    <path id="topCircle" d="M 52 121 A 68 68 0 0 1 188 121" />
+    <path id="bottomCircle" d="M 188 119 A 68 68 0 0 1 52 119" />
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#0f5f3d"/>
+      <stop offset="62%" stop-color="#073f2b"/>
+      <stop offset="100%" stop-color="#021b14"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="url(#bg)" filter="url(#shadow)"/>
+  <circle cx="120" cy="120" r="86" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="1.4"/>
+  <circle cx="120" cy="120" r="101" fill="none" stroke="#b8e36b" stroke-opacity=".28" stroke-width="1"/>
+  <text font-family="Roboto, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2.4" fill="#ffffff">
+    <textPath href="#topCircle" startOffset="50%" text-anchor="middle">COMERCIALIZADORA RESTAN</textPath>
+  </text>
+  <text font-family="Roboto, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="2" fill="#ffffff">
+    <textPath href="#bottomCircle" startOffset="50%" text-anchor="middle">COMERCIALIZADORA RESTAN</textPath>
+  </text>
+  <g fill="#f6cf1f">
+    <circle cx="97" cy="98" r="12"/>
+    <circle cx="143" cy="98" r="12"/>
+    <circle cx="97" cy="142" r="12"/>
+    <circle cx="143" cy="142" r="12"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="59" cy="121" r="4"/>
+    <circle cx="181" cy="121" r="4"/>
+    <circle cx="120" cy="55" r="4"/>
+    <circle cx="120" cy="185" r="4"/>
+  </g>
+</svg>
