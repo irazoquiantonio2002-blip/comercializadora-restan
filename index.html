@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comercializadora Restan | Cajas de plastico, rafias y pallets en Ciudad Guzman</title>
+  <meta name="description" content="Comercializadora Restan S.A. de C.V. distribuye cajas de plastico, rafias, esquineros plasticos y pallets de madera para negocios en Ciudad Guzman, Jalisco.">
+  <meta name="keywords" content="Comercializadora Restan, cajas de plastico Ciudad Guzman, rafias Jalisco, pallets de madera, esquineros plasticos, materiales plasticos">
+  <meta property="og:title" content="Comercializadora Restan | Materiales plasticos y pallets">
+  <meta property="og:description" content="Soluciones resistentes para empaque, almacenamiento y logistica en Ciudad Guzman, Jalisco.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-orbit" aria-hidden="true"></div>
+    <img class="loader-logo" src="assets/restan-logo.svg" alt="">
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Comercializadora Restan — inicio">
+          <img src="assets/restan-logo.svg" alt="Logotipo de Comercializadora Restan" class="nav-logo-mark">
+          <div class="nav-logo-copy">
+            <span>Comercializadora</span>
+            <span>Restan</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegacion principal">
+          <ul class="nav-links">
+            <li><a href="#why">Diferencia</a></li>
+            <li><a href="#ambientes">Productos</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#producto">Ficha tecnica</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="https://wa.me/523331410467?text=Hola%2C%20visite%20la%20pagina%20de%20Comercializadora%20Restan%20y%20quiero%20solicitar%20una%20cotizacion."
+           target="_blank" rel="noopener noreferrer" class="btn-gold nav-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          WhatsApp
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menu movil">
+      <a href="#why">Diferencia</a>
+      <a href="#ambientes">Productos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#producto">Ficha tecnica</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/523331410467?text=Hola%2C%20quiero%20cotizar%20productos%20con%20Comercializadora%20Restan." target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image (fixed) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <!-- Dark overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle orbs -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Soluciones plasticas y logisticas · Ciudad Guzman, Jalisco
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Materiales que protegen</span></span>
+            <span class="line"><span>tu producto y elevan</span></span>
+            <span class="line"><span class="accent">tu logistica.</span></span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Cajas de plastico, rafias, esquineros plasticos y pallets de madera para negocios que necesitan empaque, almacenamiento y traslado con resistencia real.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar cotizacion
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-boxes-stacked"></i>
+              Ver productos
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Productos resistentes
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-recycle"></i>
+              Material reciclable
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              Atencion local en Jalisco
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Features
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="section-particles" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por que elegirnos</div>
+            <h2 class="why-quote" id="why-heading">
+              La diferencia esta en entregar materiales que soportan el ritmo de una operacion real.
+              <em>Sin improvisar.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Comercializadora Restan combina catalogo util, atencion directa y productos seleccionados para empaque, estiba, almacenamiento y distribucion en el mercado local de Jalisco.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-cube"></i>
+            </div>
+            <h3>Catalogo funcional</h3>
+            <p>Cajas plasticas, rafias, esquineros y pallets para resolver necesidades de empaque, proteccion y manejo de producto.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <h3>Atencion cercana</h3>
+            <p>Acompanamiento comercial para identificar medidas, capacidades y materiales adecuados segun el uso de cada cliente.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3>Soluciones apilables</h3>
+            <p>Productos pensados para optimizar espacio, estiba y traslado sin descuidar resistencia, higiene y durabilidad.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <h3>Enfoque responsable</h3>
+            <p>Material plastico con aporte reciclado y opciones duraderas que ayudan a reducir desperdicio operativo.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         AMBIENTES — Productos
+    ══════════════════════════════════════════════════ -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Productos y materiales</div>
+            <h2 class="section-title" id="amb-heading">
+              Insumos resistentes para<br>
+              <span class="gold">empaque y almacenamiento</span>
+            </h2>
+            <p class="section-lead">
+              Una oferta directa para negocios que necesitan materiales confiables, medidas utiles y respuesta agil.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Catalogo Restan</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid product-grid">
+
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="AC4F1DC686ADB77CF3D588B7F65EC037.jpeg"
+              alt="Cajas de plastico negras comercializadas por Comercializadora Restan">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-box-open"></i>
+              </div>
+              <h3>Cajas de plastico</h3>
+              <p>Opciones apilables para fruta, verdura, pescado, marisco y otros usos de empaque.</p>
+              <div class="amb-temp">6, 10, 11, 19 y 20 kg</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="AC505B2242958A0E5B0F0957384CF6D0.jpeg"
+              alt="Rafias y catalogo de productos plasticos de Comercializadora Restan">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-grip-lines"></i>
+              </div>
+              <h3>Rafias</h3>
+              <p>Presentaciones de 1 kg, 4.5 kg y 9 kg, con calibres y colores para diferentes aplicaciones.</p>
+              <div class="amb-temp">Amplia gama de color</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="AC0EE044DACAADEA96C691DD32BC481C.jpeg"
+              alt="Pallets de madera apilados para almacenamiento y logistica">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-boxes-stacked"></i>
+              </div>
+              <h3>Pallets de madera</h3>
+              <p>Tarimas para almacenamiento, movimiento interno y logistica de producto terminado.</p>
+              <div class="amb-temp">Diversos tamanos y caracteristicas</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d3">
+            <img class="amb-img"
+              src="AC9BE244F4275F1BD62437676DD94C2B.jpeg"
+              alt="Materia prima plastica en costal para soluciones de Comercializadora Restan">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-ruler-combined"></i>
+              </div>
+              <h3>Esquineros plasticos</h3>
+              <p>Soluciones de proteccion con acabado negro y medidas de fabricacion a peticion del cliente.</p>
+              <div class="amb-temp">Resistencia y durabilidad</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — How we work
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="process-bg" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Como funciona</div>
+          <h2 class="section-title" id="proceso-heading">
+            Cotizar con Restan es <span class="gold">simple y directo</span>
+          </h2>
+          <p>Tres pasos claros para pasar de la necesidad operativa a una solucion lista para tu negocio.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Comparte tu necesidad</h3>
+            <p>Indica producto, cantidad, uso y cualquier medida o condicion importante para tu operacion.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Recibe orientacion</h3>
+            <p>Te ayudamos a elegir entre cajas, rafias, pallets o esquineros segun resistencia, capacidad y manejo requerido.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Confirma tu pedido</h3>
+            <p>Coordinamos la cotizacion y seguimiento por telefono o WhatsApp para avanzar sin friccion.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PRODUCTO ESTRELLA
+    ══════════════════════════════════════════════════ -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Ficha tecnica destacada</div>
+            <h2 class="section-title" id="prod-heading">
+              Caja plastica de 10 kg<br>
+              <span class="gold">para empaque alimentario</span>
+            </h2>
+            <p class="producto-lead">
+              Caja apilable de medida estandar para fruta y verdura, fabricada en polipropileno resistente y apta para contacto con producto empacado.
+            </p>
+
+            <ul class="feature-rows" aria-label="Caracteristicas de la caja plastica de 10 kg">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-temperature-half"></i></div>
+                <div>
+                  <h4>Rango termico amplio</h4>
+                  <p>Material de polipropileno resistente entre -20 grados C y +90 grados C.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-vial-circle-check"></i></div>
+                <div>
+                  <h4>Resistencia quimica</h4>
+                  <p>El polipropileno es altamente resistente a la mayoria de productos quimicos y derivados de petroleo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-wind"></i></div>
+                <div>
+                  <h4>Diseno para manejo eficiente</h4>
+                  <p>Paredes con divisiones para aligerar y mejorar elongacion y flexion durante la maniobra.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-hand"></i></div>
+                <div>
+                  <h4>Asas abiertas</h4>
+                  <p>Asas en paredes frontal y trasera para facilitar movimiento, estiba y operacion diaria.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Especificaciones tecnicas de caja 10 kg">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">50 cm</span>
+                <span class="spec-name">Largo exterior</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">30 cm</span>
+                <span class="spec-name">Ancho exterior</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">16.5 cm</span>
+                <span class="spec-name">Alto exterior</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">412 g</span>
+                <span class="spec-name">Peso promedio</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene" role="img" aria-label="Caja plastica negra de Comercializadora Restan">
+              <img src="AC4F1DC686ADB77CF3D588B7F65EC037.jpeg" alt="Caja plastica negra apilable para empaque" class="panel-photo">
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Apilable · Color negro
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-boxes-stacked"></i>
+                10 a 11 cajas en estiba vertical
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Estadisticas clave">
+      <div class="stats-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="5" data-suffix=""
+                 aria-label="5 capacidades">0</div>
+            <div class="stat-lbl">Capacidades<br>de caja</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="13" data-suffix=""
+                 aria-label="13 colores de rafia">0</div>
+            <div class="stat-lbl">Colores<br>de rafia</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="11" data-suffix=""
+                 aria-label="11 cajas en estiba vertical">0</div>
+            <div class="stat-lbl">Cajas en<br>estiba vertical</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="8" data-suffix=""
+                 aria-label="8 cajas por cama">0</div>
+            <div class="stat-lbl">Cajas por<br>cama</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SECTORES
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Sectores</div>
+          <h2 class="section-title" id="sec-heading">
+            Ideal para operaciones que necesitan <span class="gold">orden y resistencia</span>
+          </h2>
+          <p>Productos utiles para negocios que manejan empaque, producto fresco, almacenamiento y traslado interno.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-apple-whole sector-icon" aria-hidden="true"></i>
+            <h3>Frutas y verduras</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-fish sector-icon" aria-hidden="true"></i>
+            <h3>Pescados y mariscos</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-warehouse sector-icon" aria-hidden="true"></i>
+            <h3>Almacenamiento</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-truck-ramp-box sector-icon" aria-hidden="true"></i>
+            <h3>Logistica</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-boxes-packing sector-icon" aria-hidden="true"></i>
+            <h3>Empaque comercial</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         GALERIA
+    ══════════════════════════════════════════════════ -->
+    <section id="galeria" aria-labelledby="galeria-heading">
+      <div class="container">
+        <div class="galeria-hdr reveal">
+          <div class="label">Galeria de productos reales</div>
+          <h2 class="section-title" id="galeria-heading">
+            Evidencia visual para decidir <span class="gold">con confianza</span>
+          </h2>
+          <p>Fotografias del material disponible y referencias comerciales incluidas en la informacion del proyecto.</p>
+        </div>
+
+        <div class="gallery-grid" role="list">
+          <figure class="gallery-item reveal" role="listitem">
+            <img src="AC0EE044DACAADEA96C691DD32BC481C.jpeg" alt="Pallet de madera en primer plano">
+            <figcaption>Pallet de madera para estiba y almacenamiento.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal d1" role="listitem">
+            <img src="AC8BAF110B0C852AAB31510A856CC78B.jpeg" alt="Pallets de madera apilados en almacen">
+            <figcaption>Tarimas apiladas listas para operacion.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal d2" role="listitem">
+            <img src="ACADECF72EC468ADFFAAE52F6F875F1C.jpeg" alt="Pallets de madera colocados en fila">
+            <figcaption>Formato de pallet para necesidades de carga.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal d3" role="listitem">
+            <img src="ACB62CCD2F343E7E4B611D3B1DC0868D.jpeg" alt="Costales grandes con material plastico">
+            <figcaption>Material en presentaciones de alto volumen.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal d4" role="listitem">
+            <img src="AC960B3D1345D45028CC05C1A9E8B423.jpeg" alt="Granulado plastico negro en costal">
+            <figcaption>Materia prima plastica para soluciones resistentes.</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-zoom-item reveal d5" role="listitem" tabindex="0"
+                  data-lightbox-src="AC505B2242958A0E5B0F0957384CF6D0.jpeg"
+                  data-lightbox-alt="Folleto completo de cajas de plastico, rafias y esquineros plasticos de Comercializadora Restan"
+                  aria-label="Ampliar catalogo visual de cajas, rafias y esquineros">
+            <img src="AC505B2242958A0E5B0F0957384CF6D0.jpeg" alt="Ficha comercial de cajas, rafias y esquineros">
+            <figcaption>
+              Catalogo visual de cajas, rafias y esquineros.
+              <span class="zoom-hint"><i class="fa-solid fa-up-right-and-down-left-from-center"></i> Ver completo</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="contact-bg" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de <span class="gold">tu siguiente pedido</span>
+          </h2>
+          <p>Solicita informacion o cotizacion. El formulario abre WhatsApp con tu mensaje listo.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <img src="assets/restan-logo.svg" alt="Logotipo Comercializadora Restan" class="contact-logo">
+            <h3>Comercializadora Restan S.A. de C.V.</h3>
+            <p class="ci-sub">Productos y materiales plasticos, cajas y pallets para negocios en Jalisco.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Zona de atencion</h4>
+                  <p>Ciudad Guzman,<br>Jalisco.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Telefonos</h4>
+                  <p>
+                    <a href="tel:+523331410467">33 3141 0467</a><br>
+                    <a href="tel:+523323903957">33 2390 3957</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Correo</h4>
+                  <p>
+                    <a href="mailto:franciscozunigavega85@gmail.com">franciscozunigavega85@gmail.com</a><br>
+                    <a href="mailto:arelicalderonrosa@gmail.com">arelicalderonrosa@gmail.com</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-file-invoice"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>RFC</h4>
+                  <p>CRE2106117R0</p>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar cotizacion</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">Producto de interes</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotizacion general</option>
+                    <option>Cajas de plastico</option>
+                    <option>Rafias</option>
+                    <option>Esquineros plasticos</option>
+                    <option>Pallets de madera</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-phone">Telefono</label>
+                <input type="tel" id="f-phone" class="form-control"
+                       placeholder="Ej. 33 0000 0000" autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del pedido</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Indica producto, cantidad, medidas o uso requerido."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                No se enviara correo automatico: al enviar se abrira WhatsApp con el mensaje redactado.
+              </p>
+            </form>
+
+            <div class="map-wrap" aria-label="Mapa de Ciudad Guzman, Jalisco">
+              <iframe
+                title="Mapa de Ciudad Guzman, Jalisco"
+                src="https://www.google.com/maps?q=Ciudad%20Guzman%2C%20Jalisco&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/restan-logo.svg" alt="Logotipo Comercializadora Restan">
+          <p>Materiales resistentes para empaque, estiba y logistica comercial.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegacion</h4>
+          <a href="#why">Diferencia</a>
+          <a href="#ambientes">Productos</a>
+          <a href="#proceso">Proceso</a>
+        </div>
+        <div class="footer-col">
+          <h4>Productos</h4>
+          <a href="#ambientes">Cajas de plastico</a>
+          <a href="#ambientes">Rafias</a>
+          <a href="#ambientes">Pallets</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <a href="tel:+523331410467">33 3141 0467</a>
+          <a href="mailto:franciscozunigavega85@gmail.com">Correo de ventas</a>
+          <div class="footer-socials">
+            <a href="https://wa.me/523331410467" target="_blank" rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:franciscozunigavega85@gmail.com" class="footer-soc" aria-label="Correo electronico">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+523331410467" class="footer-soc" aria-label="Telefono">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Comercializadora Restan S.A. de C.V. Todos los derechos reservados. Ciudad Guzman, Jalisco.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING WHATSAPP
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/523331410467?text=Hola%2C%20visite%20la%20pagina%20de%20Comercializadora%20Restan%20y%20me%20gustaria%20mas%20informacion."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Image Lightbox -->
+  <div class="image-lightbox" id="image-lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Cerrar imagen ampliada">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="lightbox-frame" role="dialog" aria-modal="true" aria-label="Catalogo ampliado">
+      <img src="" alt="" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
